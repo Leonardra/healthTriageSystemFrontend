@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import LandingPage from "./component/LandingPage";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ErrorPage from "./component/ErrorPage";
+import Nav from "./component/Nav";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Router>
+          <Nav />
+          <Routes>
+              <Route path="/" element={<LandingPage />} />
+              <Route path="*" element={<ErrorPage />} />
+          </Routes>
+      </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
