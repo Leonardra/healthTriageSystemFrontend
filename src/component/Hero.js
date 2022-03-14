@@ -26,7 +26,7 @@ const Hero = () => {
               variant="contained"
               fullWidth
               type="button"
-              sx={{ background: "#6E8264", height: 50, width: 170 }}
+              sx={{ background: "#6E8264", height: 50, width: 370 }}
             >
               Join the train
             </Button>
