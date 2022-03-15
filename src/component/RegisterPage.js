@@ -157,7 +157,7 @@ const RegisterPage = () => {
                   type="submit"
                   sx={{ background: "#6E8264", height: 60 }}
                 >
-                  Login
+                  Sign Up
                 </Button>
               </Grid>
             </Grid>

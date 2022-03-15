@@ -6,7 +6,7 @@ import LandingPage from "./component/LandingPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ErrorPage from "./component/ErrorPage";
 import Nav from "./component/Nav";
-import LoginPage from "./component/Login";
+import Login from "./component/Login";
 import RegisterPage from "./component/RegisterPage";
 
 ReactDOM.render(
@@ -16,7 +16,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="*" element={<ErrorPage />} />
-        <Route path="/login" element={<LoginPage />} />
+        <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<RegisterPage />} />
       </Routes>
     </Router>
