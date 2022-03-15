@@ -3,6 +3,7 @@ import { Container, Typography } from "@mui/material";
 import Hero from "./Hero";
 import Partners from "./Partners";
 import Benefit from "./Benefit";
+import Footer from "./Footer";
 
 const LandingPage = () => {
   return (
@@ -10,6 +11,7 @@ const LandingPage = () => {
       <Hero />
       <Partners />
       <Benefit />
+      <Footer />
     </>
   );
 };

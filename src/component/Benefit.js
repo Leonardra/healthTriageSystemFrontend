@@ -7,10 +7,9 @@ const Benefit = () => {
       <Stack
         direction="row"
         justifyContent="space-between"
-        // paddingTop="20rem"
         alignItems="center"
         spacing="10"
-        height="50rem"
+        height="49rem"
       >
         <Stack direction="column" spacing="50px" width="30rem">
           <Typography fontWeight="700" fontSize="50px" color="#000">
